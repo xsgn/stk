@@ -45,7 +45,7 @@ class STKTestCases: XCTestCase {
     let engine = AVAudioEngine()
     override func setUp() async throws {
         try await super.setUp()
-        let xsgn = "XSGN".compactMap { $0.asciiValue }.reduce(0) { $0 << 8 + UInt32($1) } as OSType
+        let xsgn = "xsgn".compactMap { $0.asciiValue }.reduce(0) { $0 << 8 + UInt32($1) } as OSType
         let desc = AudioComponentDescription(componentType: kAudioUnitType_MusicDevice,
                                              componentSubType: kAudioUnitSubType_MIDISynth,
                                              componentManufacturer: xsgn,
