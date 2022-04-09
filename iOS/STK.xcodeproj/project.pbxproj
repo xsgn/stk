@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8774EB9728010C1500FF6631 /* STK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8774EB8F28010C1500FF6631 /* STK.framework */; };
 		8774EB9D28010C1500FF6631 /* STK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8774EB9128010C1500FF6631 /* STK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8774EBAB28010CCB00FF6631 /* Stk.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBA928010CCB00FF6631 /* Stk.mm */; };
+		8774EBAB28010CCB00FF6631 /* Stk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBA928010CCB00FF6631 /* Stk.cpp */; };
 		8774EBAC28010CCB00FF6631 /* Stk.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8774EBAA28010CCB00FF6631 /* Stk.hpp */; settings = {ATTRIBUTES = (Private, ); }; };
 		8774EBB028010D6B00FF6631 /* Stk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBAF28010D6B00FF6631 /* Stk.swift */; };
 		8774EBB4280110CC00FF6631 /* Instrmnt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBB2280110CC00FF6631 /* Instrmnt.cpp */; };
@@ -196,7 +196,7 @@
 		8774EB9128010C1500FF6631 /* STK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STK.h; sourceTree = "<group>"; };
 		8774EB9628010C1500FF6631 /* STKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8774EBA828010C6800FF6631 /* Cpp.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = Cpp.modulemap; sourceTree = "<group>"; };
-		8774EBA928010CCB00FF6631 /* Stk.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Stk.mm; sourceTree = "<group>"; };
+		8774EBA928010CCB00FF6631 /* Stk.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stk.cpp; sourceTree = "<group>"; };
 		8774EBAA28010CCB00FF6631 /* Stk.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stk.hpp; sourceTree = "<group>"; };
 		8774EBAF28010D6B00FF6631 /* Stk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stk.swift; sourceTree = "<group>"; };
 		8774EBB2280110CC00FF6631 /* Instrmnt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Instrmnt.cpp; sourceTree = "<group>"; };
@@ -493,7 +493,7 @@
 		8774EBA728010C5B00FF6631 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				8774EBA928010CCB00FF6631 /* Stk.mm */,
+				8774EBA928010CCB00FF6631 /* Stk.cpp */,
 				8774EBAA28010CCB00FF6631 /* Stk.hpp */,
 			);
 			path = Base;
@@ -1109,7 +1109,7 @@
 				8774EBB82801162C00FF6631 /* Instrmnt.swift in Sources */,
 				8774EBB028010D6B00FF6631 /* Stk.swift in Sources */,
 				8774EBB4280110CC00FF6631 /* Instrmnt.cpp in Sources */,
-				8774EBAB28010CCB00FF6631 /* Stk.mm in Sources */,
+				8774EBAB28010CCB00FF6631 /* Stk.cpp in Sources */,
 				8774EBBD280116D000FF6631 /* Rhodey.mm in Sources */,
 				8774EBBA280116C100FF6631 /* Rhodey.swift in Sources */,
 			);
