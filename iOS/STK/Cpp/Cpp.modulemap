@@ -1,0 +1,11 @@
+module STK.Cpp {
+    explicit module Stk [extern_c] {
+        private header "Stk.hpp"
+    }
+    explicit module Instrmnt [extern_c] {
+        private header "Instrmnt.hpp"
+    }
+    explicit module Rhodey [extern_c] {
+        private header "Rhodey.hpp"
+    }
+}

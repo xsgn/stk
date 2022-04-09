@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8774EB9728010C1500FF6631 /* STK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8774EB8F28010C1500FF6631 /* STK.framework */; };
+		8774EB9D28010C1500FF6631 /* STK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8774EB9128010C1500FF6631 /* STK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8774EBA528010C3B00FF6631 /* libCpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AC5BEE18CB31DE00D860C0 /* libCpp.a */; };
+		8774EBAB28010CCB00FF6631 /* Stk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBA928010CCB00FF6631 /* Stk.cpp */; };
+		8774EBAC28010CCB00FF6631 /* Stk.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8774EBAA28010CCB00FF6631 /* Stk.hpp */; settings = {ATTRIBUTES = (Private, ); }; };
+		8774EBB028010D6B00FF6631 /* Stk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBAF28010D6B00FF6631 /* Stk.swift */; };
+		8774EBB4280110CC00FF6631 /* Instrmnt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBB2280110CC00FF6631 /* Instrmnt.cpp */; };
+		8774EBB5280110CC00FF6631 /* Instrmnt.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8774EBB3280110CC00FF6631 /* Instrmnt.hpp */; settings = {ATTRIBUTES = (Private, ); }; };
+		8774EBB82801162C00FF6631 /* Instrmnt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBB72801162C00FF6631 /* Instrmnt.swift */; };
+		8774EBBA280116C100FF6631 /* Rhodey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBB9280116C100FF6631 /* Rhodey.swift */; };
+		8774EBBD280116D000FF6631 /* Rhodey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBBB280116D000FF6631 /* Rhodey.cpp */; };
+		8774EBBE280116D000FF6631 /* Rhodey.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8774EBBC280116D000FF6631 /* Rhodey.hpp */; settings = {ATTRIBUTES = (Private, ); }; };
+		8774EBC1280118D800FF6631 /* Rhodey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBC0280118D800FF6631 /* Rhodey.swift */; };
 		B0AC5BF218CB330100D860C0 /* ADSR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F612618BA9B1800C14A90 /* ADSR.cpp */; };
 		B0AC5BF318CB330100D860C0 /* Asymp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F612718BA9B1800C14A90 /* Asymp.cpp */; };
 		B0AC5BF418CB330100D860C0 /* Blit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F612B18BA9B1800C14A90 /* Blit.cpp */; };
@@ -127,7 +140,31 @@
 		B0EC33B618CB736C0005787B /* twopeaks.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F612418BA9B1800C14A90 /* twopeaks.raw */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8774EB9828010C1500FF6631 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B08F608818BA9B0600C14A90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8774EB8E28010C1500FF6631;
+			remoteInfo = STK;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		8774EB8F28010C1500FF6631 /* STK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8774EB9128010C1500FF6631 /* STK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STK.h; sourceTree = "<group>"; };
+		8774EB9628010C1500FF6631 /* STKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8774EBA828010C6800FF6631 /* Cpp.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = Cpp.modulemap; sourceTree = "<group>"; };
+		8774EBA928010CCB00FF6631 /* Stk.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stk.cpp; sourceTree = "<group>"; };
+		8774EBAA28010CCB00FF6631 /* Stk.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stk.hpp; sourceTree = "<group>"; };
+		8774EBAF28010D6B00FF6631 /* Stk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stk.swift; sourceTree = "<group>"; };
+		8774EBB2280110CC00FF6631 /* Instrmnt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Instrmnt.cpp; sourceTree = "<group>"; };
+		8774EBB3280110CC00FF6631 /* Instrmnt.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Instrmnt.hpp; sourceTree = "<group>"; };
+		8774EBB72801162C00FF6631 /* Instrmnt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instrmnt.swift; sourceTree = "<group>"; };
+		8774EBB9280116C100FF6631 /* Rhodey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rhodey.swift; sourceTree = "<group>"; };
+		8774EBBB280116D000FF6631 /* Rhodey.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rhodey.cpp; sourceTree = "<group>"; };
+		8774EBBC280116D000FF6631 /* Rhodey.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Rhodey.hpp; sourceTree = "<group>"; };
+		8774EBC0280118D800FF6631 /* Rhodey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rhodey.swift; sourceTree = "<group>"; };
 		B08F608F18BA9B1800C14A90 /* ADSR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ADSR.h; path = ../include/ADSR.h; sourceTree = "<group>"; };
 		B08F609018BA9B1800C14A90 /* Asymp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Asymp.h; path = ../include/Asymp.h; sourceTree = "<group>"; };
 		B08F609118BA9B1800C14A90 /* BandedWG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BandedWG.h; sourceTree = "<group>"; };
@@ -337,11 +374,27 @@
 		B08F618C18BA9B1900C14A90 /* VoicForm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = VoicForm.cpp; path = ../src/VoicForm.cpp; sourceTree = "<group>"; };
 		B08F618D18BA9B1900C14A90 /* Whistle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Whistle.cpp; path = ../src/Whistle.cpp; sourceTree = "<group>"; };
 		B08F618E18BA9B1900C14A90 /* Wurley.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Wurley.cpp; path = ../src/Wurley.cpp; sourceTree = "<group>"; };
-		B0AC5BEE18CB31DE00D860C0 /* libSTK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSTK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0AC5BEE18CB31DE00D860C0 /* libCpp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCpp.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EC33B718CB73A70005787B /* rawwaves.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rawwaves.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8774EB8C28010C1500FF6631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8774EBA528010C3B00FF6631 /* libCpp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8774EB9328010C1500FF6631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8774EB9728010C1500FF6631 /* STK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0AC5BEB18CB31DE00D860C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -359,6 +412,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8774EB9028010C1500FF6631 /* STK */ = {
+			isa = PBXGroup;
+			children = (
+				8774EBA628010C5300FF6631 /* Cpp */,
+				8774EBAE28010D6300FF6631 /* Base */,
+				8774EBB62801155500FF6631 /* Instruments */,
+				8774EB9128010C1500FF6631 /* STK.h */,
+			);
+			path = STK;
+			sourceTree = "<group>";
+		};
+		8774EB9A28010C1500FF6631 /* STKTests */ = {
+			isa = PBXGroup;
+			children = (
+				8774EBAD28010D5800FF6631 /* Base */,
+				8774EBBF280118C300FF6631 /* Instruments */,
+			);
+			path = STKTests;
+			sourceTree = "<group>";
+		};
+		8774EBA428010C3B00FF6631 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8774EBA628010C5300FF6631 /* Cpp */ = {
+			isa = PBXGroup;
+			children = (
+				8774EBA828010C6800FF6631 /* Cpp.modulemap */,
+				8774EBA728010C5B00FF6631 /* Base */,
+				8774EBB12801103800FF6631 /* Instruments */,
+			);
+			path = Cpp;
+			sourceTree = "<group>";
+		};
+		8774EBA728010C5B00FF6631 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8774EBA928010CCB00FF6631 /* Stk.cpp */,
+				8774EBAA28010CCB00FF6631 /* Stk.hpp */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8774EBAD28010D5800FF6631 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8774EBAE28010D6300FF6631 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8774EBAF28010D6B00FF6631 /* Stk.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8774EBB12801103800FF6631 /* Instruments */ = {
+			isa = PBXGroup;
+			children = (
+				8774EBB2280110CC00FF6631 /* Instrmnt.cpp */,
+				8774EBB3280110CC00FF6631 /* Instrmnt.hpp */,
+				8774EBBB280116D000FF6631 /* Rhodey.cpp */,
+				8774EBBC280116D000FF6631 /* Rhodey.hpp */,
+			);
+			path = Instruments;
+			sourceTree = "<group>";
+		};
+		8774EBB62801155500FF6631 /* Instruments */ = {
+			isa = PBXGroup;
+			children = (
+				8774EBB72801162C00FF6631 /* Instrmnt.swift */,
+				8774EBB9280116C100FF6631 /* Rhodey.swift */,
+			);
+			path = Instruments;
+			sourceTree = "<group>";
+		};
+		8774EBBF280118C300FF6631 /* Instruments */ = {
+			isa = PBXGroup;
+			children = (
+				8774EBC0280118D800FF6631 /* Rhodey.swift */,
+			);
+			path = Instruments;
+			sourceTree = "<group>";
+		};
 		B05F5A5A18BC1018008EE790 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,6 +521,8 @@
 				E81E86D918BBD9D000289223 /* Maths */,
 				E81E86DD18BBDBC900289223 /* SKINI */,
 				B08F60F718BA9B1800C14A90 /* rawwaves */,
+				8774EB8F28010C1500FF6631 /* STK.framework */,
+				8774EB9628010C1500FF6631 /* STKTests.xctest */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -391,7 +535,10 @@
 				E81E86DA18BBDA1200289223 /* Effects */,
 				E81E86D818BBD93600289223 /* Filters */,
 				B05F5A5A18BC1018008EE790 /* Helpers */,
+				8774EB9028010C1500FF6631 /* STK */,
+				8774EB9A28010C1500FF6631 /* STKTests */,
 				B0FBB66118F89ED900845111 /* Products */,
+				8774EBA428010C3B00FF6631 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -563,7 +710,7 @@
 		B0FBB66118F89ED900845111 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0AC5BEE18CB31DE00D860C0 /* libSTK.a */,
+				B0AC5BEE18CB31DE00D860C0 /* libCpp.a */,
 				B0EC33B718CB73A70005787B /* rawwaves.bundle */,
 			);
 			name = Products;
@@ -676,6 +823,17 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		8774EB8A28010C1500FF6631 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8774EB9D28010C1500FF6631 /* STK.h in Headers */,
+				8774EBAC28010CCB00FF6631 /* Stk.hpp in Headers */,
+				8774EBB5280110CC00FF6631 /* Instrmnt.hpp in Headers */,
+				8774EBBE280116D000FF6631 /* Rhodey.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0AC5BEC18CB31DE00D860C0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -686,9 +844,45 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B0AC5BED18CB31DE00D860C0 /* STK */ = {
+		8774EB8E28010C1500FF6631 /* STK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0AC5BF118CB31DE00D860C0 /* Build configuration list for PBXNativeTarget "STK" */;
+			buildConfigurationList = 8774EB9E28010C1500FF6631 /* Build configuration list for PBXNativeTarget "STK" */;
+			buildPhases = (
+				8774EB8A28010C1500FF6631 /* Headers */,
+				8774EB8B28010C1500FF6631 /* Sources */,
+				8774EB8C28010C1500FF6631 /* Frameworks */,
+				8774EB8D28010C1500FF6631 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STK;
+			productName = STK;
+			productReference = 8774EB8F28010C1500FF6631 /* STK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8774EB9528010C1500FF6631 /* STKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8774EBA128010C1500FF6631 /* Build configuration list for PBXNativeTarget "STKTests" */;
+			buildPhases = (
+				8774EB9228010C1500FF6631 /* Sources */,
+				8774EB9328010C1500FF6631 /* Frameworks */,
+				8774EB9428010C1500FF6631 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8774EB9928010C1500FF6631 /* PBXTargetDependency */,
+			);
+			name = STKTests;
+			productName = STKTests;
+			productReference = 8774EB9628010C1500FF6631 /* STKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0AC5BED18CB31DE00D860C0 /* Cpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0AC5BF118CB31DE00D860C0 /* Build configuration list for PBXNativeTarget "Cpp" */;
 			buildPhases = (
 				B0AC5BEA18CB31DE00D860C0 /* Sources */,
 				B0AC5BEB18CB31DE00D860C0 /* Frameworks */,
@@ -698,9 +892,9 @@
 			);
 			dependencies = (
 			);
-			name = STK;
+			name = Cpp;
 			productName = "STK_C++";
-			productReference = B0AC5BEE18CB31DE00D860C0 /* libSTK.a */;
+			productReference = B0AC5BEE18CB31DE00D860C0 /* libCpp.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		B0EC337B18CB73480005787B /* rawwaves */ = {
@@ -726,7 +920,18 @@
 		B08F608818BA9B0600C14A90 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1140;
+				TargetAttributes = {
+					8774EB8E28010C1500FF6631 = {
+						CreatedOnToolsVersion = 13.3;
+						LastSwiftMigration = 1330;
+					};
+					8774EB9528010C1500FF6631 = {
+						CreatedOnToolsVersion = 13.3;
+						LastSwiftMigration = 1330;
+					};
+				};
 			};
 			buildConfigurationList = B08F608B18BA9B0600C14A90 /* Build configuration list for PBXProject "STK" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -741,13 +946,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0AC5BED18CB31DE00D860C0 /* STK */,
+				B0AC5BED18CB31DE00D860C0 /* Cpp */,
 				B0EC337B18CB73480005787B /* rawwaves */,
+				8774EB8E28010C1500FF6631 /* STK */,
+				8774EB9528010C1500FF6631 /* STKTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8774EB8D28010C1500FF6631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8774EB9428010C1500FF6631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0EC337A18CB73480005787B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -799,6 +1020,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8774EB8B28010C1500FF6631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8774EBB82801162C00FF6631 /* Instrmnt.swift in Sources */,
+				8774EBB028010D6B00FF6631 /* Stk.swift in Sources */,
+				8774EBB4280110CC00FF6631 /* Instrmnt.cpp in Sources */,
+				8774EBAB28010CCB00FF6631 /* Stk.cpp in Sources */,
+				8774EBBD280116D000FF6631 /* Rhodey.cpp in Sources */,
+				8774EBBA280116C100FF6631 /* Rhodey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8774EB9228010C1500FF6631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8774EBC1280118D800FF6631 /* Rhodey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0AC5BEA18CB31DE00D860C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -892,7 +1134,207 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8774EB9928010C1500FF6631 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8774EB8E28010C1500FF6631 /* STK */;
+			targetProxy = 8774EB9828010C1500FF6631 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		8774EB9F28010C1500FF6631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_PRIVATE_FILE = STK/Cpp/Cpp.modulemap;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = art.xsgn.STK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8774EBA028010C1500FF6631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_PRIVATE_FILE = STK/Cpp/Cpp.modulemap;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = art.xsgn.STK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8774EBA228010C1500FF6631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = Cpp/Cpp.modulemap;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = art.xsgn.STKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8774EBA328010C1500FF6631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = Cpp/Cpp.modulemap;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = art.xsgn.STKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		B08F608C18BA9B0600C14A90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1132,6 +1574,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8774EB9E28010C1500FF6631 /* Build configuration list for PBXNativeTarget "STK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8774EB9F28010C1500FF6631 /* Debug */,
+				8774EBA028010C1500FF6631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8774EBA128010C1500FF6631 /* Build configuration list for PBXNativeTarget "STKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8774EBA228010C1500FF6631 /* Debug */,
+				8774EBA328010C1500FF6631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B08F608B18BA9B0600C14A90 /* Build configuration list for PBXProject "STK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1141,7 +1601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0AC5BF118CB31DE00D860C0 /* Build configuration list for PBXNativeTarget "STK" */ = {
+		B0AC5BF118CB31DE00D860C0 /* Build configuration list for PBXNativeTarget "Cpp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0AC5BEF18CB31DE00D860C0 /* Debug */,
