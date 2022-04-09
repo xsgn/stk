@@ -67,6 +67,7 @@
 		8774EC042801307200FF6631 /* Mandolin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774EC032801307200FF6631 /* Mandolin.swift */; };
 		8774EC072801307900FF6631 /* Mandolin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8774EC052801307900FF6631 /* Mandolin.cpp */; };
 		8774EC082801307900FF6631 /* Mandolin.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8774EC062801307900FF6631 /* Mandolin.hpp */; settings = {ATTRIBUTES = (Private, ); }; };
+		8774EC0A280140F800FF6631 /* STKTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774EC09280140F800FF6631 /* STKTestCases.swift */; };
 		B0AC5BF218CB330100D860C0 /* ADSR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F612618BA9B1800C14A90 /* ADSR.cpp */; };
 		B0AC5BF318CB330100D860C0 /* Asymp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F612718BA9B1800C14A90 /* Asymp.cpp */; };
 		B0AC5BF418CB330100D860C0 /* Blit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F612B18BA9B1800C14A90 /* Blit.cpp */; };
@@ -218,6 +219,7 @@
 		8774EC032801307200FF6631 /* Mandolin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mandolin.swift; sourceTree = "<group>"; };
 		8774EC052801307900FF6631 /* Mandolin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mandolin.cpp; sourceTree = "<group>"; };
 		8774EC062801307900FF6631 /* Mandolin.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mandolin.hpp; sourceTree = "<group>"; };
+		8774EC09280140F800FF6631 /* STKTestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STKTestCases.swift; sourceTree = "<group>"; };
 		B08F608F18BA9B1800C14A90 /* ADSR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ADSR.h; path = ../include/ADSR.h; sourceTree = "<group>"; };
 		B08F609018BA9B1800C14A90 /* Asymp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Asymp.h; path = ../include/Asymp.h; sourceTree = "<group>"; };
 		B08F609118BA9B1800C14A90 /* BandedWG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BandedWG.h; sourceTree = "<group>"; };
@@ -514,6 +516,7 @@
 		8774EBAD28010D5800FF6631 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				8774EC09280140F800FF6631 /* STKTestCases.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -1143,6 +1146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8774EC0A280140F800FF6631 /* STKTestCases.swift in Sources */,
 				8774EBC1280118D800FF6631 /* Rhodey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

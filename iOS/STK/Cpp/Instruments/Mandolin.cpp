@@ -11,7 +11,7 @@ extern "C" {
 using namespace stk;
 #define STK(ref) reinterpret_cast<Mandolin*>(const_cast<void*>(ref))
 void const*const __nonnull Mandolin_new() {
-    return reinterpret_cast<void*>(new Mandolin(200));
+    return reinterpret_cast<void*>(new Mandolin(100));
 }
 void Mandolin_delete(void const*__nonnull const ref) {
     delete STK(ref);
