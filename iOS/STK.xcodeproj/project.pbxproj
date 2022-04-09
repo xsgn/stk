@@ -16,7 +16,7 @@
 		8774EBB5280110CC00FF6631 /* Instrmnt.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8774EBB3280110CC00FF6631 /* Instrmnt.hpp */; settings = {ATTRIBUTES = (Private, ); }; };
 		8774EBB82801162C00FF6631 /* Instrmnt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBB72801162C00FF6631 /* Instrmnt.swift */; };
 		8774EBBA280116C100FF6631 /* Rhodey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBB9280116C100FF6631 /* Rhodey.swift */; };
-		8774EBBD280116D000FF6631 /* Rhodey.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBBB280116D000FF6631 /* Rhodey.mm */; };
+		8774EBBD280116D000FF6631 /* Rhodey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBBB280116D000FF6631 /* Rhodey.cpp */; };
 		8774EBBE280116D000FF6631 /* Rhodey.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8774EBBC280116D000FF6631 /* Rhodey.hpp */; settings = {ATTRIBUTES = (Private, ); }; };
 		8774EBC1280118D800FF6631 /* Rhodey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBC0280118D800FF6631 /* Rhodey.swift */; };
 		8774EBC228011B9200FF6631 /* libCpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AC5BEE18CB31DE00D860C0 /* libCpp.a */; };
@@ -203,7 +203,7 @@
 		8774EBB3280110CC00FF6631 /* Instrmnt.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Instrmnt.hpp; sourceTree = "<group>"; };
 		8774EBB72801162C00FF6631 /* Instrmnt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instrmnt.swift; sourceTree = "<group>"; };
 		8774EBB9280116C100FF6631 /* Rhodey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rhodey.swift; sourceTree = "<group>"; };
-		8774EBBB280116D000FF6631 /* Rhodey.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Rhodey.mm; sourceTree = "<group>"; };
+		8774EBBB280116D000FF6631 /* Rhodey.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rhodey.cpp; sourceTree = "<group>"; };
 		8774EBBC280116D000FF6631 /* Rhodey.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Rhodey.hpp; sourceTree = "<group>"; };
 		8774EBC0280118D800FF6631 /* Rhodey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rhodey.swift; sourceTree = "<group>"; };
 		B08F608F18BA9B1800C14A90 /* ADSR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ADSR.h; path = ../include/ADSR.h; sourceTree = "<group>"; };
@@ -519,7 +519,7 @@
 			children = (
 				8774EBB2280110CC00FF6631 /* Instrmnt.cpp */,
 				8774EBB3280110CC00FF6631 /* Instrmnt.hpp */,
-				8774EBBB280116D000FF6631 /* Rhodey.mm */,
+				8774EBBB280116D000FF6631 /* Rhodey.cpp */,
 				8774EBBC280116D000FF6631 /* Rhodey.hpp */,
 			);
 			path = Instruments;
@@ -1110,7 +1110,7 @@
 				8774EBB028010D6B00FF6631 /* Stk.swift in Sources */,
 				8774EBB4280110CC00FF6631 /* Instrmnt.cpp in Sources */,
 				8774EBAB28010CCB00FF6631 /* Stk.cpp in Sources */,
-				8774EBBD280116D000FF6631 /* Rhodey.mm in Sources */,
+				8774EBBD280116D000FF6631 /* Rhodey.cpp in Sources */,
 				8774EBBA280116C100FF6631 /* Rhodey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
