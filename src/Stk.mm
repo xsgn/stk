@@ -52,11 +52,19 @@
 
 #include "Stk.h"
 #include <stdlib.h>
-
+#import<Foundation/Foundation.h>
+@interface STK : NSObject
++(std::string)resourcePath;
+@end
+@implementation STK
++(std::string)resourcePath {
+    return std::string([[[[NSBundle bundleForClass:self]resourcePath]stringByAppendingString:@"/"]UTF8String]);
+}
+@end
 namespace stk {
 
 StkFloat Stk :: srate_ = (StkFloat) SRATE;
-std::string Stk :: rawwavepath_ = RAWWAVE_PATH;
+std::string Stk :: rawwavepath_ = [STK resourcePath];
 const Stk::StkFormat Stk :: STK_SINT8   = 0x1;
 const Stk::StkFormat Stk :: STK_SINT16  = 0x2;
 const Stk::StkFormat Stk :: STK_SINT24  = 0x4;
