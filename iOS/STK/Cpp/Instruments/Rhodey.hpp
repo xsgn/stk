@@ -4,7 +4,6 @@
 //
 //  Created by Kota Nakano on 4/9/22.
 //
-
 #ifndef Rhodey_hpp
 #define Rhodey_hpp
 void const*const __nonnull Rhodey_new();

@@ -9,17 +9,58 @@
 /* Begin PBXBuildFile section */
 		8774EB9728010C1500FF6631 /* STK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8774EB8F28010C1500FF6631 /* STK.framework */; };
 		8774EB9D28010C1500FF6631 /* STK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8774EB9128010C1500FF6631 /* STK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8774EBA528010C3B00FF6631 /* libCpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AC5BEE18CB31DE00D860C0 /* libCpp.a */; };
-		8774EBAB28010CCB00FF6631 /* Stk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBA928010CCB00FF6631 /* Stk.cpp */; };
+		8774EBAB28010CCB00FF6631 /* Stk.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBA928010CCB00FF6631 /* Stk.mm */; };
 		8774EBAC28010CCB00FF6631 /* Stk.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8774EBAA28010CCB00FF6631 /* Stk.hpp */; settings = {ATTRIBUTES = (Private, ); }; };
 		8774EBB028010D6B00FF6631 /* Stk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBAF28010D6B00FF6631 /* Stk.swift */; };
 		8774EBB4280110CC00FF6631 /* Instrmnt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBB2280110CC00FF6631 /* Instrmnt.cpp */; };
 		8774EBB5280110CC00FF6631 /* Instrmnt.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8774EBB3280110CC00FF6631 /* Instrmnt.hpp */; settings = {ATTRIBUTES = (Private, ); }; };
 		8774EBB82801162C00FF6631 /* Instrmnt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBB72801162C00FF6631 /* Instrmnt.swift */; };
 		8774EBBA280116C100FF6631 /* Rhodey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBB9280116C100FF6631 /* Rhodey.swift */; };
-		8774EBBD280116D000FF6631 /* Rhodey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBBB280116D000FF6631 /* Rhodey.cpp */; };
+		8774EBBD280116D000FF6631 /* Rhodey.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBBB280116D000FF6631 /* Rhodey.mm */; };
 		8774EBBE280116D000FF6631 /* Rhodey.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8774EBBC280116D000FF6631 /* Rhodey.hpp */; settings = {ATTRIBUTES = (Private, ); }; };
 		8774EBC1280118D800FF6631 /* Rhodey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBC0280118D800FF6631 /* Rhodey.swift */; };
+		8774EBC228011B9200FF6631 /* libCpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AC5BEE18CB31DE00D860C0 /* libCpp.a */; };
+		8774EBC328011D6000FF6631 /* ahh.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F60F818BA9B1800C14A90 /* ahh.raw */; };
+		8774EBC428011D6000FF6631 /* bassdrum.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F60F918BA9B1800C14A90 /* bassdrum.raw */; };
+		8774EBC528011D6000FF6631 /* britestk.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F60FA18BA9B1800C14A90 /* britestk.raw */; };
+		8774EBC628011D6000FF6631 /* cowbell1.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F60FB18BA9B1800C14A90 /* cowbell1.raw */; };
+		8774EBC728011D6000FF6631 /* crashcym.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F60FC18BA9B1800C14A90 /* crashcym.raw */; };
+		8774EBC828011D6000FF6631 /* dope.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F60FD18BA9B1800C14A90 /* dope.raw */; };
+		8774EBC928011D6000FF6631 /* eee.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F60FE18BA9B1800C14A90 /* eee.raw */; };
+		8774EBCA28011D6000FF6631 /* fwavblnk.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F60FF18BA9B1800C14A90 /* fwavblnk.raw */; };
+		8774EBCB28011D6000FF6631 /* halfwave.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F610018BA9B1800C14A90 /* halfwave.raw */; };
+		8774EBCC28011D6000FF6631 /* hihatcym.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F610118BA9B1800C14A90 /* hihatcym.raw */; };
+		8774EBCD28011D6000FF6631 /* impuls10.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F610218BA9B1800C14A90 /* impuls10.raw */; };
+		8774EBCE28011D6000FF6631 /* impuls20.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F610318BA9B1800C14A90 /* impuls20.raw */; };
+		8774EBCF28011D6000FF6631 /* impuls40.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F610418BA9B1800C14A90 /* impuls40.raw */; };
+		8774EBD028011D6000FF6631 /* mand1.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F610818BA9B1800C14A90 /* mand1.raw */; };
+		8774EBD128011D6000FF6631 /* mand10.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F610918BA9B1800C14A90 /* mand10.raw */; };
+		8774EBD228011D6000FF6631 /* mand11.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F610A18BA9B1800C14A90 /* mand11.raw */; };
+		8774EBD328011D6000FF6631 /* mand12.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F610B18BA9B1800C14A90 /* mand12.raw */; };
+		8774EBD428011D6000FF6631 /* mand2.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F610C18BA9B1800C14A90 /* mand2.raw */; };
+		8774EBD528011D6000FF6631 /* mand3.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F610D18BA9B1800C14A90 /* mand3.raw */; };
+		8774EBD628011D6000FF6631 /* mand4.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F610E18BA9B1800C14A90 /* mand4.raw */; };
+		8774EBD728011D6000FF6631 /* mand5.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F610F18BA9B1800C14A90 /* mand5.raw */; };
+		8774EBD828011D6000FF6631 /* mand6.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F611018BA9B1800C14A90 /* mand6.raw */; };
+		8774EBD928011D6000FF6631 /* mand7.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F611118BA9B1800C14A90 /* mand7.raw */; };
+		8774EBDA28011D6000FF6631 /* mand8.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F611218BA9B1800C14A90 /* mand8.raw */; };
+		8774EBDB28011D6000FF6631 /* mand9.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F611318BA9B1800C14A90 /* mand9.raw */; };
+		8774EBDC28011D6000FF6631 /* mandpluk.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F611418BA9B1800C14A90 /* mandpluk.raw */; };
+		8774EBDD28011D6000FF6631 /* marmstk1.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F611518BA9B1800C14A90 /* marmstk1.raw */; };
+		8774EBDE28011D6000FF6631 /* ooo.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F611618BA9B1800C14A90 /* ooo.raw */; };
+		8774EBDF28011D6000FF6631 /* peksblnk.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F611718BA9B1800C14A90 /* peksblnk.raw */; };
+		8774EBE028011D6000FF6631 /* ppksblnk.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F611818BA9B1800C14A90 /* ppksblnk.raw */; };
+		8774EBE128011D6000FF6631 /* ridecymb.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F611918BA9B1800C14A90 /* ridecymb.raw */; };
+		8774EBE228011D6000FF6631 /* silence.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F611A18BA9B1800C14A90 /* silence.raw */; };
+		8774EBE328011D6000FF6631 /* sineblnk.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F611C18BA9B1800C14A90 /* sineblnk.raw */; };
+		8774EBE428011D6000FF6631 /* sinewave.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F611D18BA9B1800C14A90 /* sinewave.raw */; };
+		8774EBE528011D6000FF6631 /* snardrum.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F611E18BA9B1800C14A90 /* snardrum.raw */; };
+		8774EBE628011D6000FF6631 /* snglpeak.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F611F18BA9B1800C14A90 /* snglpeak.raw */; };
+		8774EBE728011D6000FF6631 /* tambourn.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F612018BA9B1800C14A90 /* tambourn.raw */; };
+		8774EBE828011D6000FF6631 /* tomhidrm.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F612118BA9B1800C14A90 /* tomhidrm.raw */; };
+		8774EBE928011D6000FF6631 /* tomlowdr.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F612218BA9B1800C14A90 /* tomlowdr.raw */; };
+		8774EBEA28011D6000FF6631 /* tommiddr.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F612318BA9B1800C14A90 /* tommiddr.raw */; };
+		8774EBEB28011D6000FF6631 /* twopeaks.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F612418BA9B1800C14A90 /* twopeaks.raw */; };
 		B0AC5BF218CB330100D860C0 /* ADSR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F612618BA9B1800C14A90 /* ADSR.cpp */; };
 		B0AC5BF318CB330100D860C0 /* Asymp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F612718BA9B1800C14A90 /* Asymp.cpp */; };
 		B0AC5BF418CB330100D860C0 /* Blit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F612B18BA9B1800C14A90 /* Blit.cpp */; };
@@ -82,7 +123,7 @@
 		B0AC5C2D18CB330100D860C0 /* PoleZero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F616E18BA9B1800C14A90 /* PoleZero.cpp */; };
 		B0AC5C2E18CB330100D860C0 /* TwoPole.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F618818BA9B1900C14A90 /* TwoPole.cpp */; };
 		B0AC5C2F18CB330100D860C0 /* TwoZero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F618918BA9B1900C14A90 /* TwoZero.cpp */; };
-		B0AC5C3018CB330100D860C0 /* Stk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F618118BA9B1800C14A90 /* Stk.cpp */; };
+		B0AC5C3018CB330100D860C0 /* Stk.mm in Sources */ = {isa = PBXBuildFile; fileRef = B08F618118BA9B1800C14A90 /* Stk.mm */; };
 		B0AC5C3118CB330100D860C0 /* FM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F614118BA9B1800C14A90 /* FM.cpp */; };
 		B0AC5C3218CB330100D860C0 /* Modal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F616118BA9B1800C14A90 /* Modal.cpp */; };
 		B0AC5C3318CB330100D860C0 /* Messager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F615F18BA9B1800C14A90 /* Messager.cpp */; };
@@ -155,14 +196,14 @@
 		8774EB9128010C1500FF6631 /* STK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STK.h; sourceTree = "<group>"; };
 		8774EB9628010C1500FF6631 /* STKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8774EBA828010C6800FF6631 /* Cpp.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = Cpp.modulemap; sourceTree = "<group>"; };
-		8774EBA928010CCB00FF6631 /* Stk.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stk.cpp; sourceTree = "<group>"; };
+		8774EBA928010CCB00FF6631 /* Stk.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Stk.mm; sourceTree = "<group>"; };
 		8774EBAA28010CCB00FF6631 /* Stk.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stk.hpp; sourceTree = "<group>"; };
 		8774EBAF28010D6B00FF6631 /* Stk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stk.swift; sourceTree = "<group>"; };
 		8774EBB2280110CC00FF6631 /* Instrmnt.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Instrmnt.cpp; sourceTree = "<group>"; };
 		8774EBB3280110CC00FF6631 /* Instrmnt.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Instrmnt.hpp; sourceTree = "<group>"; };
 		8774EBB72801162C00FF6631 /* Instrmnt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instrmnt.swift; sourceTree = "<group>"; };
 		8774EBB9280116C100FF6631 /* Rhodey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rhodey.swift; sourceTree = "<group>"; };
-		8774EBBB280116D000FF6631 /* Rhodey.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rhodey.cpp; sourceTree = "<group>"; };
+		8774EBBB280116D000FF6631 /* Rhodey.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Rhodey.mm; sourceTree = "<group>"; };
 		8774EBBC280116D000FF6631 /* Rhodey.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Rhodey.hpp; sourceTree = "<group>"; };
 		8774EBC0280118D800FF6631 /* Rhodey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rhodey.swift; sourceTree = "<group>"; };
 		B08F608F18BA9B1800C14A90 /* ADSR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ADSR.h; path = ../include/ADSR.h; sourceTree = "<group>"; };
@@ -364,7 +405,7 @@
 		B08F617D18BA9B1800C14A90 /* Skini.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Skini.cpp; sourceTree = "<group>"; };
 		B08F617F18BA9B1800C14A90 /* Sphere.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Sphere.cpp; path = ../src/Sphere.cpp; sourceTree = "<group>"; };
 		B08F618018BA9B1800C14A90 /* StifKarp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = StifKarp.cpp; path = ../src/StifKarp.cpp; sourceTree = "<group>"; };
-		B08F618118BA9B1800C14A90 /* Stk.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stk.cpp; sourceTree = "<group>"; };
+		B08F618118BA9B1800C14A90 /* Stk.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Stk.mm; sourceTree = "<group>"; };
 		B08F618218BA9B1800C14A90 /* TapDelay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TapDelay.cpp; sourceTree = "<group>"; };
 		B08F618618BA9B1800C14A90 /* TubeBell.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TubeBell.cpp; path = ../src/TubeBell.cpp; sourceTree = "<group>"; };
 		B08F618718BA9B1900C14A90 /* Twang.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Twang.cpp; path = ../src/Twang.cpp; sourceTree = "<group>"; };
@@ -383,7 +424,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8774EBA528010C3B00FF6631 /* libCpp.a in Frameworks */,
+				8774EBC228011B9200FF6631 /* libCpp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +493,7 @@
 		8774EBA728010C5B00FF6631 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				8774EBA928010CCB00FF6631 /* Stk.cpp */,
+				8774EBA928010CCB00FF6631 /* Stk.mm */,
 				8774EBAA28010CCB00FF6631 /* Stk.hpp */,
 			);
 			path = Base;
@@ -478,7 +519,7 @@
 			children = (
 				8774EBB2280110CC00FF6631 /* Instrmnt.cpp */,
 				8774EBB3280110CC00FF6631 /* Instrmnt.hpp */,
-				8774EBBB280116D000FF6631 /* Rhodey.cpp */,
+				8774EBBB280116D000FF6631 /* Rhodey.mm */,
 				8774EBBC280116D000FF6631 /* Rhodey.hpp */,
 			);
 			path = Instruments;
@@ -693,7 +734,7 @@
 			isa = PBXGroup;
 			children = (
 				B08F60E618BA9B1800C14A90 /* Stk.h */,
-				B08F618118BA9B1800C14A90 /* Stk.cpp */,
+				B08F618118BA9B1800C14A90 /* Stk.mm */,
 				B08F60A418BA9B1800C14A90 /* Effect.h */,
 				B08F60AB18BA9B1800C14A90 /* Filter.h */,
 				B08F60B318BA9B1800C14A90 /* Generator.h */,
@@ -959,6 +1000,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8774EBC328011D6000FF6631 /* ahh.raw in Resources */,
+				8774EBC428011D6000FF6631 /* bassdrum.raw in Resources */,
+				8774EBC528011D6000FF6631 /* britestk.raw in Resources */,
+				8774EBC628011D6000FF6631 /* cowbell1.raw in Resources */,
+				8774EBC728011D6000FF6631 /* crashcym.raw in Resources */,
+				8774EBC828011D6000FF6631 /* dope.raw in Resources */,
+				8774EBC928011D6000FF6631 /* eee.raw in Resources */,
+				8774EBCA28011D6000FF6631 /* fwavblnk.raw in Resources */,
+				8774EBCB28011D6000FF6631 /* halfwave.raw in Resources */,
+				8774EBCC28011D6000FF6631 /* hihatcym.raw in Resources */,
+				8774EBCD28011D6000FF6631 /* impuls10.raw in Resources */,
+				8774EBCE28011D6000FF6631 /* impuls20.raw in Resources */,
+				8774EBCF28011D6000FF6631 /* impuls40.raw in Resources */,
+				8774EBD028011D6000FF6631 /* mand1.raw in Resources */,
+				8774EBD128011D6000FF6631 /* mand10.raw in Resources */,
+				8774EBD228011D6000FF6631 /* mand11.raw in Resources */,
+				8774EBD328011D6000FF6631 /* mand12.raw in Resources */,
+				8774EBD428011D6000FF6631 /* mand2.raw in Resources */,
+				8774EBD528011D6000FF6631 /* mand3.raw in Resources */,
+				8774EBD628011D6000FF6631 /* mand4.raw in Resources */,
+				8774EBD728011D6000FF6631 /* mand5.raw in Resources */,
+				8774EBD828011D6000FF6631 /* mand6.raw in Resources */,
+				8774EBD928011D6000FF6631 /* mand7.raw in Resources */,
+				8774EBDA28011D6000FF6631 /* mand8.raw in Resources */,
+				8774EBDB28011D6000FF6631 /* mand9.raw in Resources */,
+				8774EBDC28011D6000FF6631 /* mandpluk.raw in Resources */,
+				8774EBDD28011D6000FF6631 /* marmstk1.raw in Resources */,
+				8774EBDE28011D6000FF6631 /* ooo.raw in Resources */,
+				8774EBDF28011D6000FF6631 /* peksblnk.raw in Resources */,
+				8774EBE028011D6000FF6631 /* ppksblnk.raw in Resources */,
+				8774EBE128011D6000FF6631 /* ridecymb.raw in Resources */,
+				8774EBE228011D6000FF6631 /* silence.raw in Resources */,
+				8774EBE328011D6000FF6631 /* sineblnk.raw in Resources */,
+				8774EBE428011D6000FF6631 /* sinewave.raw in Resources */,
+				8774EBE528011D6000FF6631 /* snardrum.raw in Resources */,
+				8774EBE628011D6000FF6631 /* snglpeak.raw in Resources */,
+				8774EBE728011D6000FF6631 /* tambourn.raw in Resources */,
+				8774EBE828011D6000FF6631 /* tomhidrm.raw in Resources */,
+				8774EBE928011D6000FF6631 /* tomlowdr.raw in Resources */,
+				8774EBEA28011D6000FF6631 /* tommiddr.raw in Resources */,
+				8774EBEB28011D6000FF6631 /* twopeaks.raw in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1027,8 +1109,8 @@
 				8774EBB82801162C00FF6631 /* Instrmnt.swift in Sources */,
 				8774EBB028010D6B00FF6631 /* Stk.swift in Sources */,
 				8774EBB4280110CC00FF6631 /* Instrmnt.cpp in Sources */,
-				8774EBAB28010CCB00FF6631 /* Stk.cpp in Sources */,
-				8774EBBD280116D000FF6631 /* Rhodey.cpp in Sources */,
+				8774EBAB28010CCB00FF6631 /* Stk.mm in Sources */,
+				8774EBBD280116D000FF6631 /* Rhodey.mm in Sources */,
 				8774EBBA280116C100FF6631 /* Rhodey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1107,7 +1189,7 @@
 				B0AC5C2D18CB330100D860C0 /* PoleZero.cpp in Sources */,
 				B0AC5C2E18CB330100D860C0 /* TwoPole.cpp in Sources */,
 				B0AC5C2F18CB330100D860C0 /* TwoZero.cpp in Sources */,
-				B0AC5C3018CB330100D860C0 /* Stk.cpp in Sources */,
+				B0AC5C3018CB330100D860C0 /* Stk.mm in Sources */,
 				B0AC5C3118CB330100D860C0 /* FM.cpp in Sources */,
 				B0AC5C3218CB330100D860C0 /* Modal.cpp in Sources */,
 				B0AC5C3318CB330100D860C0 /* Messager.cpp in Sources */,
@@ -1181,17 +1263,12 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MARKETING_VERSION = 1.0;
 				MODULEMAP_PRIVATE_FILE = STK/Cpp/Cpp.modulemap;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = art.xsgn.STK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1230,16 +1307,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MARKETING_VERSION = 1.0;
 				MODULEMAP_PRIVATE_FILE = STK/Cpp/Cpp.modulemap;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = art.xsgn.STK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1284,7 +1356,6 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = art.xsgn.STKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1326,7 +1397,6 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = art.xsgn.STKTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
@@ -1366,6 +1436,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1398,6 +1470,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1442,9 +1517,7 @@
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = "";
-				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
@@ -1486,7 +1559,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1529,7 +1601,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
@@ -1566,7 +1637,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;

@@ -4,7 +4,6 @@
 //
 //  Created by Kota Nakano on 4/9/22.
 //
-
 #ifndef Instrmnt_hpp
 #define Instrmnt_hpp
 float Instrmnt_tick(void const*__nonnull const);
