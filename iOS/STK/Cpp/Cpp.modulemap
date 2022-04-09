@@ -4,8 +4,8 @@ module STK.Cpp {
     }
     explicit module Instrmnt [extern_c] {
         private header "Instrmnt.hpp"
-    }
-    explicit module Rhodey [extern_c] {
+        private header "Guitar.hpp"
         private header "Rhodey.hpp"
+        private header "Mandolin.hpp"
     }
 }

@@ -61,6 +61,12 @@
 		8774EBE928011D6000FF6631 /* tomlowdr.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F612218BA9B1800C14A90 /* tomlowdr.raw */; };
 		8774EBEA28011D6000FF6631 /* tommiddr.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F612318BA9B1800C14A90 /* tommiddr.raw */; };
 		8774EBEB28011D6000FF6631 /* twopeaks.raw in Resources */ = {isa = PBXBuildFile; fileRef = B08F612418BA9B1800C14A90 /* twopeaks.raw */; };
+		8774EBF0280129CD00FF6631 /* Guitar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBEE280129CD00FF6631 /* Guitar.cpp */; };
+		8774EBF1280129CD00FF6631 /* Guitar.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8774EBEF280129CD00FF6631 /* Guitar.hpp */; settings = {ATTRIBUTES = (Private, ); }; };
+		8774EBF428012A8000FF6631 /* Guitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774EBF328012A8000FF6631 /* Guitar.swift */; };
+		8774EC042801307200FF6631 /* Mandolin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8774EC032801307200FF6631 /* Mandolin.swift */; };
+		8774EC072801307900FF6631 /* Mandolin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8774EC052801307900FF6631 /* Mandolin.cpp */; };
+		8774EC082801307900FF6631 /* Mandolin.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8774EC062801307900FF6631 /* Mandolin.hpp */; settings = {ATTRIBUTES = (Private, ); }; };
 		B0AC5BF218CB330100D860C0 /* ADSR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F612618BA9B1800C14A90 /* ADSR.cpp */; };
 		B0AC5BF318CB330100D860C0 /* Asymp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F612718BA9B1800C14A90 /* Asymp.cpp */; };
 		B0AC5BF418CB330100D860C0 /* Blit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B08F612B18BA9B1800C14A90 /* Blit.cpp */; };
@@ -206,6 +212,12 @@
 		8774EBBB280116D000FF6631 /* Rhodey.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rhodey.cpp; sourceTree = "<group>"; };
 		8774EBBC280116D000FF6631 /* Rhodey.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Rhodey.hpp; sourceTree = "<group>"; };
 		8774EBC0280118D800FF6631 /* Rhodey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rhodey.swift; sourceTree = "<group>"; };
+		8774EBEE280129CD00FF6631 /* Guitar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Guitar.cpp; sourceTree = "<group>"; };
+		8774EBEF280129CD00FF6631 /* Guitar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Guitar.hpp; sourceTree = "<group>"; };
+		8774EBF328012A8000FF6631 /* Guitar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar.swift; sourceTree = "<group>"; };
+		8774EC032801307200FF6631 /* Mandolin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mandolin.swift; sourceTree = "<group>"; };
+		8774EC052801307900FF6631 /* Mandolin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mandolin.cpp; sourceTree = "<group>"; };
+		8774EC062801307900FF6631 /* Mandolin.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mandolin.hpp; sourceTree = "<group>"; };
 		B08F608F18BA9B1800C14A90 /* ADSR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ADSR.h; path = ../include/ADSR.h; sourceTree = "<group>"; };
 		B08F609018BA9B1800C14A90 /* Asymp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Asymp.h; path = ../include/Asymp.h; sourceTree = "<group>"; };
 		B08F609118BA9B1800C14A90 /* BandedWG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BandedWG.h; sourceTree = "<group>"; };
@@ -519,8 +531,12 @@
 			children = (
 				8774EBB2280110CC00FF6631 /* Instrmnt.cpp */,
 				8774EBB3280110CC00FF6631 /* Instrmnt.hpp */,
+				8774EBEE280129CD00FF6631 /* Guitar.cpp */,
+				8774EBEF280129CD00FF6631 /* Guitar.hpp */,
 				8774EBBB280116D000FF6631 /* Rhodey.cpp */,
 				8774EBBC280116D000FF6631 /* Rhodey.hpp */,
+				8774EC052801307900FF6631 /* Mandolin.cpp */,
+				8774EC062801307900FF6631 /* Mandolin.hpp */,
 			);
 			path = Instruments;
 			sourceTree = "<group>";
@@ -529,7 +545,9 @@
 			isa = PBXGroup;
 			children = (
 				8774EBB72801162C00FF6631 /* Instrmnt.swift */,
+				8774EBF328012A8000FF6631 /* Guitar.swift */,
 				8774EBB9280116C100FF6631 /* Rhodey.swift */,
+				8774EC032801307200FF6631 /* Mandolin.swift */,
 			);
 			path = Instruments;
 			sourceTree = "<group>";
@@ -871,6 +889,8 @@
 				8774EB9D28010C1500FF6631 /* STK.h in Headers */,
 				8774EBAC28010CCB00FF6631 /* Stk.hpp in Headers */,
 				8774EBB5280110CC00FF6631 /* Instrmnt.hpp in Headers */,
+				8774EBF1280129CD00FF6631 /* Guitar.hpp in Headers */,
+				8774EC082801307900FF6631 /* Mandolin.hpp in Headers */,
 				8774EBBE280116D000FF6631 /* Rhodey.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1107,7 +1127,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8774EBB82801162C00FF6631 /* Instrmnt.swift in Sources */,
+				8774EC042801307200FF6631 /* Mandolin.swift in Sources */,
+				8774EBF0280129CD00FF6631 /* Guitar.cpp in Sources */,
 				8774EBB028010D6B00FF6631 /* Stk.swift in Sources */,
+				8774EBF428012A8000FF6631 /* Guitar.swift in Sources */,
+				8774EC072801307900FF6631 /* Mandolin.cpp in Sources */,
 				8774EBB4280110CC00FF6631 /* Instrmnt.cpp in Sources */,
 				8774EBAB28010CCB00FF6631 /* Stk.cpp in Sources */,
 				8774EBBD280116D000FF6631 /* Rhodey.cpp in Sources */,

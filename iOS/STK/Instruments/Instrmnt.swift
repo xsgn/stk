@@ -5,17 +5,17 @@
 //  Created by Kota Nakano on 4/9/22.
 //
 import STK.Cpp.Instrmnt
-protocol Instrmnt : Stk {
+public protocol Instrmnt : Stk {
     
 }
 extension Instrmnt {
-    func noteOn(frequency: Float32, amplitude: Float32) {
+    public func noteOn(frequency: Float32, amplitude: Float32) {
         Instrmnt_noteOn(object, frequency, amplitude)
     }
-    func noteOff(amplitude: Float32) {
+    public func noteOff(amplitude: Float32) {
         Instrmnt_noteOff(object, amplitude)
     }
-    func tick() -> Float32 {
+    public func tick() -> Float32 {
         Instrmnt_tick(object)
     }
 }

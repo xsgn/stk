@@ -7,7 +7,6 @@
 extern "C" {
     #include "Rhodey.hpp"
 }
-#import<Foundation/Foundation.h>
 #include"../../../../include/Rhodey.h"
 using namespace stk;
 #define STK(ref) reinterpret_cast<Rhodey*>(const_cast<void*>(ref))

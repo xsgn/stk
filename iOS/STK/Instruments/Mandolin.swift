@@ -1,16 +1,16 @@
 //
-//  Rhodey.swift
+//  Mandolin.swift
 //  STK
 //
 //  Created by Kota Nakano on 4/9/22.
 //
 import STK.Cpp.Instrmnt
-public final class Rhodey : Instrmnt {
+public final class Mandolin : Instrmnt {
     public let object: UnsafeRawPointer
     public init() {
-        object = Rhodey_new()
+        object = Mandolin_new()
     }
     deinit {
-        Rhodey_delete(object)
+        Mandolin_delete(object)
     }
 }
